@@ -1,0 +1,88 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.navbar {
+  background-color: #ad2828;
+
+  .navbar-toggler {
+    background-color: #ffeae6;
+  }
+}
+
+#cabecalho .nav {
+  .nav-link.active {
+    background-color: #fff;
+    color: #ad2828;
+  }
+}
+
+.navbar-brand,
+.navbar-brand:hover,
+#cabecalho .nav .nav-link {
+  color: #fff;
+}
+
+.img-carousel {
+  max-height: 80vh !important;
+}
+
+.section-title {
+  font-family: "Itim", cursive;
+}
+
+#sobre-o-cinema,
+#catalogo {
+  background-color: #ffeae6;
+}
+
+.text-colored {
+  color: #ad2828;
+}
+
+.nav-catalogo {
+  .nav-link.active {
+    background-color: #ad2828;
+    color: #fff;
+
+    &:hover {
+      color: #fff;
+    }
+  }
+
+  .nav-link {
+    color: #ad2828;
+    &:hover {
+      color: #ad2828;
+    }
+  }
+}
+
+.social-links {
+  li {
+    list-style: none;
+    display: inline;
+  }
+  a {
+    text-decoration: none;
+  }
+}
+
+#fale-conosco {
+  button {
+    background-color: #ad2828;
+    color: #fff;
+
+    &:hover {
+      color: #666;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .carousel-item {
+    img {
+      height: 280px;
+    }
+  }
+}
